@@ -1,0 +1,50 @@
+hosts: all
+  become: yes
+  tasks:
+   - name: Disable SWAP since kubernetes can't work with swap enabled (1/2)
+     command: swapoff -a
+
+   - name: Disable SWAP in fstab since kubernetes can't work with swap enabled (2/2)
+     lineinfile:
+       dest: /etc/fstab
+       regexp: swap
+       state: absent
+
+   - name: install Docker
+     apt:
+       name: docker.io
+       state: present
+       update_cache: true
+
+   - name: install apt-transport-https
+     apt:
+       name: apt-transport-https
+       state: present
+
+   - name: Google Cloud public signing key
+     apt_key:
+       url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
+       state: present
+
+   - name: Add the Kubernetes apt repository
+     apt_repository:
+      repo: deb http://apt.kubernetes.io/ kubernetes-xenial main
+      state: present
+      filename: 'kubernetes'
+
+   - name: install kubelet
+     apt:
+       name: kubelet=1.20.4-00
+       state: present
+       update_cache: true
+
+   - name: install kubeadm
+     apt:
+       name: kubeadm=1.20.4-00
+       state: present
+
+   - name: install kubectl
+     apt:
+       name: kubectl=1.20.4-00
+       state: present
+       force: yes
