@@ -12,7 +12,7 @@ terraform apply
 ansible:  
 	ansible-playbook -i Ansible/hosts.cfg Ansible/k8s.yml  
 	ansible-playbook -i Ansible/hosts.cfg Ansible/master.yml  
-	ansible-playbook -i Ansible/hosts.cfg Ansible/workers.yml  
+	ansible-playbook -i Ansible/hosts.cfg Ansible/worker.yml  
 
 terraform destroy:  
 terraform destroy  
