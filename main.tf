@@ -24,7 +24,7 @@ resource "yandex_compute_instance" "k8s-vm1" {
   boot_disk {
     initialize_params {
       # ubuntu 20-04
-      image_id  = "fd8vmcue7aajpmeo39kk"
+      image_id  = "fd81d2d9ifd50gmvc03g"
       size = "10"
     }
   }
@@ -47,7 +47,7 @@ resource "yandex_compute_instance" "k8s-vm2" {
   boot_disk {
     initialize_params {
       # ubuntu 20-04
-      image_id  = "fd8vmcue7aajpmeo39kk"
+      image_id  = "fd81d2d9ifd50gmvc03g"
       size = "10"
     }
   }
