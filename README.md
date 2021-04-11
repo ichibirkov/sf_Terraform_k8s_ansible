@@ -7,6 +7,8 @@ terraform create:
 terraform init  
 terraform apply  
 
+Для авторизации пользователя через SSH, необходимл добавить в конфигурационный файл Ansible - /etc/ansible/ansible.cfg, параметр host_key_checking = False.
+
 ansible:  
 	ansible-playbook -i Ansible/hosts.cfg Ansible/k8s.yml  
 	ansible-playbook -i Ansible/hosts.cfg Ansible/master.yml  
