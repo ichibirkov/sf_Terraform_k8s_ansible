@@ -1,4 +1,4 @@
-hosts: all
+ -hosts: all
   become: yes
   tasks:
    - name: Disable SWAP since kubernetes can't work with swap enabled (1/2)
