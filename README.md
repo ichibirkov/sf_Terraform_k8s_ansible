@@ -1,7 +1,7 @@
 # sf_Terraform_k8s_ansible  
 Все манипуляции проводились на Ubuntu 20.04.  
 Перед началом убедитесь что в Вашей системе установлен Terraform и Ansible.  
-
+Нобходимо в файл /keys/yandex.json добавить закрытый ключ для подключения к yandex cloud.
 
 terraform create:  
 terraform init  
