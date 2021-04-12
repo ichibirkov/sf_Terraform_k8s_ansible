@@ -1,0 +1,115 @@
+2021/04/12 16:03:47 [INFO] Terraform version: 0.14.10  
+2021/04/12 16:03:47 [INFO] Go runtime version: go1.15.6
+2021/04/12 16:03:47 [INFO] CLI args: []string{"/usr/bin/terraform", "init"}
+2021/04/12 16:03:47 [INFO] CLI command args: []string{"init"}
+2021/04/12 16:03:47 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+2021/04/12 16:03:47 [INFO] Failed to read plugin lock file .terraform/plugins/linux_amd64/lock.json: open .terraform/plugins/linux_amd64/lock.json: no such file or directory
+2021/04/12 16:03:47 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+2021/04/12 16:03:48 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+2021/04/12 16:03:51 [INFO] Terraform version: 0.14.10  
+2021/04/12 16:03:51 [INFO] Go runtime version: go1.15.6
+2021/04/12 16:03:51 [INFO] CLI args: []string{"/usr/bin/terraform", "apply"}
+2021/04/12 16:03:51 [INFO] CLI command args: []string{"apply"}
+2021/04/12 16:03:51 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+2021/04/12 16:03:51 [INFO] Failed to read plugin lock file .terraform/plugins/linux_amd64/lock.json: open .terraform/plugins/linux_amd64/lock.json: no such file or directory
+2021/04/12 16:03:51 [INFO] backend/local: starting Apply operation
+2021-04-12T16:03:51.976Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:03:52.063Z [INFO]  plugin.terraform-provider-local_v2.1.0_x5: configuring server automatic mTLS: timestamp=2021-04-12T16:03:52.062Z
+2021-04-12T16:03:52.454Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = transport is closing"
+2021-04-12T16:03:52.455Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:03:52.540Z [INFO]  plugin.terraform-provider-yandex_v0.55.0: configuring server automatic mTLS: timestamp=2021-04-12T16:03:52.539Z
+2021-04-12T16:03:52.707Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unimplemented desc = unknown service plugin.GRPCStdio"
+2021/04/12 16:03:52 [INFO] terraform: building graph: GraphTypeValidate
+2021/04/12 16:03:52 [INFO] ReferenceTransformer: reference not found: "path.module"
+2021-04-12T16:03:52.787Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:03:52.904Z [INFO]  plugin.terraform-provider-yandex_v0.55.0: configuring server automatic mTLS: timestamp=2021-04-12T16:03:52.904Z
+2021-04-12T16:03:53.104Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:03:53.110Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unimplemented desc = unknown service plugin.GRPCStdio"
+2021-04-12T16:03:53.233Z [INFO]  plugin.terraform-provider-local_v2.1.0_x5: configuring server automatic mTLS: timestamp=2021-04-12T16:03:53.232Z
+2021-04-12T16:03:53.408Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = transport is closing"
+2021/04/12 16:03:53 [INFO] backend/local: apply calling Plan
+2021/04/12 16:03:53 [INFO] terraform: building graph: GraphTypePlan
+2021/04/12 16:03:53 [INFO] ReferenceTransformer: reference not found: "path.module"
+2021-04-12T16:03:53.413Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:03:53.513Z [INFO]  plugin.terraform-provider-yandex_v0.55.0: configuring server automatic mTLS: timestamp=2021-04-12T16:03:53.513Z
+2021-04-12T16:03:53.701Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:03:53.709Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unimplemented desc = unknown service plugin.GRPCStdio"
+2021-04-12T16:03:53.812Z [INFO]  plugin.terraform-provider-local_v2.1.0_x5: configuring server automatic mTLS: timestamp=2021-04-12T16:03:53.812Z
+2021/04/12 16:03:54 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an invalid plan for yandex_compute_instance.k8s-vm1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .platform_id: planned value cty.StringVal("standard-v1") does not match config value cty.NullVal(cty.String)
+      - .network_acceleration_type: planned value cty.StringVal("standard") does not match config value cty.NullVal(cty.String)
+      - .scheduling_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .boot_disk[0].auto_delete: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+      - .boot_disk[0].initialize_params[0].type: planned value cty.StringVal("network-hdd") does not match config value cty.NullVal(cty.String)
+      - .network_interface[0].ipv4: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+      - .placement_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2021/04/12 16:03:54 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an invalid plan for yandex_compute_instance.k8s-vm2, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .network_acceleration_type: planned value cty.StringVal("standard") does not match config value cty.NullVal(cty.String)
+      - .platform_id: planned value cty.StringVal("standard-v1") does not match config value cty.NullVal(cty.String)
+      - .boot_disk[0].auto_delete: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+      - .boot_disk[0].initialize_params[0].type: planned value cty.StringVal("network-hdd") does not match config value cty.NullVal(cty.String)
+      - .network_interface[0].ipv4: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+      - .placement_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .scheduling_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2021/04/12 16:03:54 [INFO] ReferenceTransformer: reference not found: "path.module"
+2021/04/12 16:03:54 [WARN] Provider "registry.terraform.io/hashicorp/local" produced an invalid plan for local_file.ansible_cfg, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .directory_permission: planned value cty.StringVal("0777") does not match config value cty.NullVal(cty.String)
+      - .file_permission: planned value cty.StringVal("0777") does not match config value cty.NullVal(cty.String)
+2021-04-12T16:03:54.088Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = transport is closing"
+2021/04/12 16:03:56 [INFO] backend/local: apply calling Apply
+2021/04/12 16:03:56 [INFO] terraform: building graph: GraphTypeApply
+2021/04/12 16:03:56 [INFO] ReferenceTransformer: reference not found: "path.module"
+2021-04-12T16:03:56.105Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:03:56.187Z [INFO]  plugin.terraform-provider-local_v2.1.0_x5: configuring server automatic mTLS: timestamp=2021-04-12T16:03:56.183Z
+2021-04-12T16:03:56.374Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:03:56.500Z [INFO]  plugin.terraform-provider-yandex_v0.55.0: configuring server automatic mTLS: timestamp=2021-04-12T16:03:56.500Z
+2021-04-12T16:03:56.723Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unimplemented desc = unknown service plugin.GRPCStdio"
+2021/04/12 16:03:57 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an unexpected new value for yandex_vpc_network.network-1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .description: was null, but now cty.StringVal("")
+2021/04/12 16:03:58 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an unexpected new value for yandex_vpc_subnet.subnet-1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .description: was null, but now cty.StringVal("")
+      - .route_table_id: was null, but now cty.StringVal("")
+2021/04/12 16:03:58 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an invalid plan for yandex_compute_instance.k8s-vm1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .network_acceleration_type: planned value cty.StringVal("standard") does not match config value cty.NullVal(cty.String)
+      - .platform_id: planned value cty.StringVal("standard-v1") does not match config value cty.NullVal(cty.String)
+      - .scheduling_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .boot_disk[0].auto_delete: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+      - .boot_disk[0].initialize_params[0].type: planned value cty.StringVal("network-hdd") does not match config value cty.NullVal(cty.String)
+      - .network_interface[0].ipv4: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+      - .placement_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2021/04/12 16:03:58 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an invalid plan for yandex_compute_instance.k8s-vm2, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .platform_id: planned value cty.StringVal("standard-v1") does not match config value cty.NullVal(cty.String)
+      - .network_acceleration_type: planned value cty.StringVal("standard") does not match config value cty.NullVal(cty.String)
+      - .network_interface[0].ipv4: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+      - .placement_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .scheduling_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .boot_disk[0].auto_delete: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+      - .boot_disk[0].initialize_params[0].type: planned value cty.StringVal("network-hdd") does not match config value cty.NullVal(cty.String)
+2021/04/12 16:04:27 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an unexpected new value for yandex_compute_instance.k8s-vm2, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .description: was null, but now cty.StringVal("")
+      - .resources[0].gpus: was null, but now cty.NumberIntVal(0)
+2021/04/12 16:04:28 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an unexpected new value for yandex_compute_instance.k8s-vm1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .description: was null, but now cty.StringVal("")
+      - .resources[0].gpus: was null, but now cty.NumberIntVal(0)
+2021/04/12 16:04:28 [WARN] Provider "registry.terraform.io/hashicorp/local" produced an invalid plan for local_file.ansible_cfg, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .directory_permission: planned value cty.StringVal("0777") does not match config value cty.NullVal(cty.String)
+      - .file_permission: planned value cty.StringVal("0777") does not match config value cty.NullVal(cty.String)
+2021-04-12T16:04:28.788Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = transport is closing"

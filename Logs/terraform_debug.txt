@@ -1,0 +1,314 @@
+2021/04/12 16:07:22 [INFO] Terraform version: 0.14.10  
+2021/04/12 16:07:22 [INFO] Go runtime version: go1.15.6
+2021/04/12 16:07:22 [INFO] CLI args: []string{"/usr/bin/terraform", "init"}
+2021/04/12 16:07:22 [INFO] CLI command args: []string{"init"}
+2021/04/12 16:07:22 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+2021/04/12 16:07:23 [INFO] Failed to read plugin lock file .terraform/plugins/linux_amd64/lock.json: open .terraform/plugins/linux_amd64/lock.json: no such file or directory
+2021/04/12 16:07:23 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+2021/04/12 16:07:23 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+2021/04/12 16:07:42 [INFO] Terraform version: 0.14.10  
+2021/04/12 16:07:42 [INFO] Go runtime version: go1.15.6
+2021/04/12 16:07:42 [INFO] CLI args: []string{"/usr/bin/terraform", "init"}
+2021/04/12 16:07:42 [DEBUG] Attempting to open CLI config file: /root/.terraformrc
+2021/04/12 16:07:42 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2021/04/12 16:07:42 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2021/04/12 16:07:42 [DEBUG] ignoring non-existing provider search directory /root/.terraform.d/plugins
+2021/04/12 16:07:42 [DEBUG] ignoring non-existing provider search directory /root/.local/share/terraform/plugins
+2021/04/12 16:07:42 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2021/04/12 16:07:42 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2021/04/12 16:07:42 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2021/04/12 16:07:42 [INFO] CLI command args: []string{"init"}
+2021/04/12 16:07:42 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+2021/04/12 16:07:42 [DEBUG] New state was assigned lineage "5680380f-d68d-ab66-d6de-57a5f50da692"
+2021/04/12 16:07:42 [DEBUG] checking for provisioner in "."
+2021/04/12 16:07:42 [DEBUG] checking for provisioner in "/usr/bin"
+2021/04/12 16:07:42 [INFO] Failed to read plugin lock file .terraform/plugins/linux_amd64/lock.json: open .terraform/plugins/linux_amd64/lock.json: no such file or directory
+2021/04/12 16:07:42 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2021/04/12 16:07:42 [DEBUG] GET https://registry.terraform.io/v1/providers/yandex-cloud/yandex/versions
+2021/04/12 16:07:42 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+2021/04/12 16:07:43 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+2021/04/12 16:07:43 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/local/versions
+2021/04/12 16:07:46 [INFO] Terraform version: 0.14.10  
+2021/04/12 16:07:46 [INFO] Go runtime version: go1.15.6
+2021/04/12 16:07:46 [INFO] CLI args: []string{"/usr/bin/terraform", "apply"}
+2021/04/12 16:07:46 [DEBUG] Attempting to open CLI config file: /root/.terraformrc
+2021/04/12 16:07:46 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2021/04/12 16:07:46 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2021/04/12 16:07:46 [DEBUG] ignoring non-existing provider search directory /root/.terraform.d/plugins
+2021/04/12 16:07:46 [DEBUG] ignoring non-existing provider search directory /root/.local/share/terraform/plugins
+2021/04/12 16:07:46 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2021/04/12 16:07:46 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2021/04/12 16:07:46 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2021/04/12 16:07:46 [INFO] CLI command args: []string{"apply"}
+2021/04/12 16:07:46 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+2021/04/12 16:07:46 [DEBUG] New state was assigned lineage "e681697a-37c3-d066-da03-30eb41ae8b7a"
+2021/04/12 16:07:46 [DEBUG] checking for provisioner in "."
+2021/04/12 16:07:46 [DEBUG] checking for provisioner in "/usr/bin"
+2021/04/12 16:07:46 [INFO] Failed to read plugin lock file .terraform/plugins/linux_amd64/lock.json: open .terraform/plugins/linux_amd64/lock.json: no such file or directory
+2021/04/12 16:07:46 [INFO] backend/local: starting Apply operation
+2021-04-12T16:07:46.947Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:07:47.007Z [DEBUG] plugin: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5 args=[.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5]
+2021-04-12T16:07:47.008Z [DEBUG] plugin: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5 pid=6902
+2021-04-12T16:07:47.008Z [DEBUG] plugin: waiting for RPC address: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5
+2021-04-12T16:07:47.039Z [INFO]  plugin.terraform-provider-local_v2.1.0_x5: configuring server automatic mTLS: timestamp=2021-04-12T16:07:47.037Z
+2021-04-12T16:07:47.114Z [DEBUG] plugin: using plugin: version=5
+2021-04-12T16:07:47.115Z [DEBUG] plugin.terraform-provider-local_v2.1.0_x5: plugin address: address=/tmp/plugin220370993 network=unix timestamp=2021-04-12T16:07:47.114Z
+2021-04-12T16:07:47.219Z [DEBUG] plugin: plugin process exited: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5 pid=6902
+2021-04-12T16:07:47.219Z [DEBUG] plugin: plugin exited
+2021-04-12T16:07:47.219Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = transport is closing"
+2021-04-12T16:07:47.219Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:07:47.269Z [DEBUG] plugin: starting plugin: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0 args=[.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0]
+2021-04-12T16:07:47.269Z [DEBUG] plugin: plugin started: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0 pid=6911
+2021-04-12T16:07:47.269Z [DEBUG] plugin: waiting for RPC address: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0
+2021-04-12T16:07:47.327Z [INFO]  plugin.terraform-provider-yandex_v0.55.0: configuring server automatic mTLS: timestamp=2021-04-12T16:07:47.318Z
+2021-04-12T16:07:47.403Z [DEBUG] plugin.terraform-provider-yandex_v0.55.0: plugin address: address=/tmp/plugin712417913 network=unix timestamp=2021-04-12T16:07:47.403Z
+2021-04-12T16:07:47.403Z [DEBUG] plugin: using plugin: version=5
+2021-04-12T16:07:47.490Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unimplemented desc = unknown service plugin.GRPCStdio"
+2021-04-12T16:07:47.543Z [DEBUG] plugin: plugin process exited: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0 pid=6911
+2021-04-12T16:07:47.543Z [DEBUG] plugin: plugin exited
+2021/04/12 16:07:47 [INFO] terraform: building graph: GraphTypeValidate
+2021/04/12 16:07:47 [DEBUG] adding implicit provider configuration provider["registry.terraform.io/hashicorp/local"], implied first by local_file.ansible_cfg
+2021/04/12 16:07:47 [DEBUG] ProviderTransformer: "local_file.ansible_cfg" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/local"]
+2021/04/12 16:07:47 [DEBUG] ProviderTransformer: "yandex_vpc_network.network-1" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/yandex-cloud/yandex"]
+2021/04/12 16:07:47 [DEBUG] ProviderTransformer: "yandex_vpc_subnet.subnet-1" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/yandex-cloud/yandex"]
+2021/04/12 16:07:47 [DEBUG] ProviderTransformer: "yandex_compute_instance.k8s-vm2" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/yandex-cloud/yandex"]
+2021/04/12 16:07:47 [DEBUG] ReferenceTransformer: "yandex_compute_instance.k8s-vm2" references: [yandex_vpc_subnet.subnet-1]
+2021/04/12 16:07:47 [DEBUG] ReferenceTransformer: "output.external_ip_address_worker_node" references: [yandex_compute_instance.k8s-vm2]
+2021/04/12 16:07:47 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/yandex-cloud/yandex\"]" references: []
+2021/04/12 16:07:47 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/hashicorp/local\"]" references: []
+2021/04/12 16:07:47 [DEBUG] ReferenceTransformer: "yandex_compute_instance.k8s-vm1" references: [yandex_vpc_subnet.subnet-1]
+2021/04/12 16:07:47 [DEBUG] ReferenceTransformer: "yandex_vpc_network.network-1" references: []
+2021/04/12 16:07:47 [DEBUG] ReferenceTransformer: "yandex_vpc_subnet.subnet-1" references: [yandex_vpc_network.network-1]
+2021/04/12 16:07:47 [DEBUG] ReferenceTransformer: "output.internal_ip_address_master_node" references: [yandex_compute_instance.k8s-vm1]
+2021/04/12 16:07:47 [DEBUG] ReferenceTransformer: "output.internal_ip_address_worker_node" references: [yandex_compute_instance.k8s-vm2]
+2021/04/12 16:07:47 [DEBUG] ReferenceTransformer: "output.external_ip_address_master_node" references: [yandex_compute_instance.k8s-vm1]
+2021/04/12 16:07:47 [INFO] ReferenceTransformer: reference not found: "path.module"
+2021/04/12 16:07:47 [DEBUG] ReferenceTransformer: "local_file.ansible_cfg" references: [yandex_compute_instance.k8s-vm1 yandex_compute_instance.k8s-vm2]
+2021/04/12 16:07:47 [DEBUG] Starting graph walk: walkValidate
+2021-04-12T16:07:47.551Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:07:47.596Z [DEBUG] plugin: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5 args=[.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5]
+2021-04-12T16:07:47.596Z [DEBUG] plugin: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5 pid=6920
+2021-04-12T16:07:47.597Z [DEBUG] plugin: waiting for RPC address: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5
+2021-04-12T16:07:47.608Z [INFO]  plugin.terraform-provider-local_v2.1.0_x5: configuring server automatic mTLS: timestamp=2021-04-12T16:07:47.608Z
+2021-04-12T16:07:47.688Z [DEBUG] plugin.terraform-provider-local_v2.1.0_x5: plugin address: address=/tmp/plugin552233948 network=unix timestamp=2021-04-12T16:07:47.687Z
+2021-04-12T16:07:47.688Z [DEBUG] plugin: using plugin: version=5
+2021-04-12T16:07:47.782Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:07:47.864Z [DEBUG] plugin: starting plugin: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0 args=[.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0]
+2021-04-12T16:07:47.879Z [DEBUG] plugin: plugin started: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0 pid=6930
+2021-04-12T16:07:47.879Z [DEBUG] plugin: waiting for RPC address: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0
+2021-04-12T16:07:47.926Z [INFO]  plugin.terraform-provider-yandex_v0.55.0: configuring server automatic mTLS: timestamp=2021-04-12T16:07:47.922Z
+2021-04-12T16:07:47.998Z [DEBUG] plugin: using plugin: version=5
+2021-04-12T16:07:47.998Z [DEBUG] plugin.terraform-provider-yandex_v0.55.0: plugin address: address=/tmp/plugin297397678 network=unix timestamp=2021-04-12T16:07:47.998Z
+2021-04-12T16:07:48.105Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unimplemented desc = unknown service plugin.GRPCStdio"
+2021-04-12T16:07:48.178Z [DEBUG] plugin: plugin process exited: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0 pid=6930
+2021-04-12T16:07:48.178Z [DEBUG] plugin: plugin exited
+2021-04-12T16:07:48.181Z [DEBUG] plugin: plugin process exited: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5 pid=6920
+2021-04-12T16:07:48.181Z [DEBUG] plugin: plugin exited
+2021-04-12T16:07:48.181Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = transport is closing"
+2021/04/12 16:07:48 [INFO] backend/local: apply calling Plan
+2021/04/12 16:07:48 [INFO] terraform: building graph: GraphTypePlan
+2021/04/12 16:07:48 [DEBUG] adding implicit provider configuration provider["registry.terraform.io/hashicorp/local"], implied first by local_file.ansible_cfg (expand)
+2021/04/12 16:07:48 [DEBUG] ProviderTransformer: "yandex_compute_instance.k8s-vm1 (expand)" (*terraform.nodeExpandPlannableResource) needs provider["registry.terraform.io/yandex-cloud/yandex"]
+2021/04/12 16:07:48 [DEBUG] ProviderTransformer: "yandex_compute_instance.k8s-vm2 (expand)" (*terraform.nodeExpandPlannableResource) needs provider["registry.terraform.io/yandex-cloud/yandex"]
+2021/04/12 16:07:48 [DEBUG] ProviderTransformer: "yandex_vpc_subnet.subnet-1 (expand)" (*terraform.nodeExpandPlannableResource) needs provider["registry.terraform.io/yandex-cloud/yandex"]
+2021/04/12 16:07:48 [DEBUG] ProviderTransformer: "yandex_vpc_network.network-1 (expand)" (*terraform.nodeExpandPlannableResource) needs provider["registry.terraform.io/yandex-cloud/yandex"]
+2021/04/12 16:07:48 [DEBUG] ProviderTransformer: "local_file.ansible_cfg (expand)" (*terraform.nodeExpandPlannableResource) needs provider["registry.terraform.io/hashicorp/local"]
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "yandex_vpc_subnet.subnet-1 (expand)" references: [yandex_vpc_network.network-1 (expand)]
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "yandex_vpc_network.network-1 (expand)" references: []
+2021/04/12 16:07:48 [INFO] ReferenceTransformer: reference not found: "path.module"
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "local_file.ansible_cfg (expand)" references: [yandex_compute_instance.k8s-vm1 (expand) yandex_compute_instance.k8s-vm2 (expand)]
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "yandex_compute_instance.k8s-vm1 (expand)" references: [yandex_vpc_subnet.subnet-1 (expand)]
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "output.internal_ip_address_master_node" references: [yandex_compute_instance.k8s-vm1 (expand)]
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "output.internal_ip_address_worker_node" references: [yandex_compute_instance.k8s-vm2 (expand)]
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "output.external_ip_address_master_node" references: [yandex_compute_instance.k8s-vm1 (expand)]
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "output.external_ip_address_worker_node" references: [yandex_compute_instance.k8s-vm2 (expand)]
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/yandex-cloud/yandex\"]" references: []
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "yandex_compute_instance.k8s-vm2 (expand)" references: [yandex_vpc_subnet.subnet-1 (expand)]
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/hashicorp/local\"]" references: []
+2021/04/12 16:07:48 [DEBUG] Starting graph walk: walkPlan
+2021-04-12T16:07:48.186Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:07:48.236Z [DEBUG] plugin: starting plugin: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0 args=[.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0]
+2021-04-12T16:07:48.237Z [DEBUG] plugin: plugin started: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0 pid=6939
+2021-04-12T16:07:48.237Z [DEBUG] plugin: waiting for RPC address: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0
+2021-04-12T16:07:48.281Z [INFO]  plugin.terraform-provider-yandex_v0.55.0: configuring server automatic mTLS: timestamp=2021-04-12T16:07:48.281Z
+2021-04-12T16:07:48.351Z [DEBUG] plugin.terraform-provider-yandex_v0.55.0: plugin address: address=/tmp/plugin215711311 network=unix timestamp=2021-04-12T16:07:48.350Z
+2021-04-12T16:07:48.351Z [DEBUG] plugin: using plugin: version=5
+2021-04-12T16:07:48.474Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:07:48.479Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unimplemented desc = unknown service plugin.GRPCStdio"
+2021-04-12T16:07:48.537Z [DEBUG] plugin: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5 args=[.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5]
+2021-04-12T16:07:48.540Z [DEBUG] plugin: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5 pid=6948
+2021-04-12T16:07:48.540Z [DEBUG] plugin: waiting for RPC address: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5
+2021-04-12T16:07:48.554Z [INFO]  plugin.terraform-provider-local_v2.1.0_x5: configuring server automatic mTLS: timestamp=2021-04-12T16:07:48.549Z
+2021-04-12T16:07:48.623Z [DEBUG] plugin: using plugin: version=5
+2021-04-12T16:07:48.623Z [DEBUG] plugin.terraform-provider-local_v2.1.0_x5: plugin address: address=/tmp/plugin573260049 network=unix timestamp=2021-04-12T16:07:48.623Z
+2021/04/12 16:07:48 [DEBUG] Resource instance state not found for node "yandex_vpc_network.network-1", instance yandex_vpc_network.network-1
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "yandex_vpc_network.network-1" references: []
+2021/04/12 16:07:48 [DEBUG] refresh: yandex_vpc_network.network-1: no state, so not refreshing
+2021/04/12 16:07:48 [DEBUG] Resource instance state not found for node "yandex_vpc_subnet.subnet-1", instance yandex_vpc_subnet.subnet-1
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "yandex_vpc_subnet.subnet-1" references: []
+2021/04/12 16:07:48 [DEBUG] refresh: yandex_vpc_subnet.subnet-1: no state, so not refreshing
+2021/04/12 16:07:48 [DEBUG] Resource instance state not found for node "yandex_compute_instance.k8s-vm2", instance yandex_compute_instance.k8s-vm2
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "yandex_compute_instance.k8s-vm2" references: []
+2021/04/12 16:07:48 [DEBUG] refresh: yandex_compute_instance.k8s-vm2: no state, so not refreshing
+2021/04/12 16:07:48 [DEBUG] Resource instance state not found for node "yandex_compute_instance.k8s-vm1", instance yandex_compute_instance.k8s-vm1
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "yandex_compute_instance.k8s-vm1" references: []
+2021/04/12 16:07:48 [DEBUG] refresh: yandex_compute_instance.k8s-vm1: no state, so not refreshing
+2021/04/12 16:07:48 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an invalid plan for yandex_compute_instance.k8s-vm2, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .platform_id: planned value cty.StringVal("standard-v1") does not match config value cty.NullVal(cty.String)
+      - .network_acceleration_type: planned value cty.StringVal("standard") does not match config value cty.NullVal(cty.String)
+      - .scheduling_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .boot_disk[0].auto_delete: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+      - .boot_disk[0].initialize_params[0].type: planned value cty.StringVal("network-hdd") does not match config value cty.NullVal(cty.String)
+      - .network_interface[0].ipv4: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+      - .placement_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2021/04/12 16:07:48 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an invalid plan for yandex_compute_instance.k8s-vm1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .network_acceleration_type: planned value cty.StringVal("standard") does not match config value cty.NullVal(cty.String)
+      - .platform_id: planned value cty.StringVal("standard-v1") does not match config value cty.NullVal(cty.String)
+      - .placement_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .scheduling_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .boot_disk[0].auto_delete: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+      - .boot_disk[0].initialize_params[0].type: planned value cty.StringVal("network-hdd") does not match config value cty.NullVal(cty.String)
+      - .network_interface[0].ipv4: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+2021/04/12 16:07:48 [DEBUG] Resource instance state not found for node "local_file.ansible_cfg", instance local_file.ansible_cfg
+2021/04/12 16:07:48 [INFO] ReferenceTransformer: reference not found: "path.module"
+2021/04/12 16:07:48 [DEBUG] ReferenceTransformer: "local_file.ansible_cfg" references: []
+2021-04-12T16:07:48.757Z [DEBUG] plugin: plugin process exited: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0 pid=6939
+2021-04-12T16:07:48.757Z [DEBUG] plugin: plugin exited
+2021/04/12 16:07:48 [DEBUG] refresh: local_file.ansible_cfg: no state, so not refreshing
+2021/04/12 16:07:48 [WARN] Provider "registry.terraform.io/hashicorp/local" produced an invalid plan for local_file.ansible_cfg, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .directory_permission: planned value cty.StringVal("0777") does not match config value cty.NullVal(cty.String)
+      - .file_permission: planned value cty.StringVal("0777") does not match config value cty.NullVal(cty.String)
+2021-04-12T16:07:48.763Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = transport is closing"
+2021-04-12T16:07:48.763Z [DEBUG] plugin: plugin process exited: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5 pid=6948
+2021-04-12T16:07:48.764Z [DEBUG] plugin: plugin exited
+2021/04/12 16:07:48 [DEBUG] command: asking for input: "Do you want to perform these actions?"
+2021/04/12 16:07:51 [INFO] backend/local: apply calling Apply
+2021/04/12 16:07:51 [INFO] terraform: building graph: GraphTypeApply
+2021/04/12 16:07:51 [DEBUG] Resource state not found for node "yandex_compute_instance.k8s-vm2", instance yandex_compute_instance.k8s-vm2
+2021/04/12 16:07:51 [DEBUG] Resource state not found for node "local_file.ansible_cfg", instance local_file.ansible_cfg
+2021/04/12 16:07:51 [DEBUG] Resource state not found for node "yandex_vpc_network.network-1", instance yandex_vpc_network.network-1
+2021/04/12 16:07:51 [DEBUG] Resource state not found for node "yandex_vpc_subnet.subnet-1", instance yandex_vpc_subnet.subnet-1
+2021/04/12 16:07:51 [DEBUG] Resource state not found for node "yandex_compute_instance.k8s-vm1", instance yandex_compute_instance.k8s-vm1
+2021/04/12 16:07:51 [DEBUG] adding implicit provider configuration provider["registry.terraform.io/hashicorp/local"], implied first by local_file.ansible_cfg (expand)
+2021/04/12 16:07:51 [DEBUG] ProviderTransformer: "yandex_compute_instance.k8s-vm2 (expand)" (*terraform.nodeExpandApplyableResource) needs provider["registry.terraform.io/yandex-cloud/yandex"]
+2021/04/12 16:07:51 [DEBUG] ProviderTransformer: "yandex_vpc_network.network-1" (*terraform.NodeApplyableResourceInstance) needs provider["registry.terraform.io/yandex-cloud/yandex"]
+2021/04/12 16:07:51 [DEBUG] ProviderTransformer: "yandex_compute_instance.k8s-vm1" (*terraform.NodeApplyableResourceInstance) needs provider["registry.terraform.io/yandex-cloud/yandex"]
+2021/04/12 16:07:51 [DEBUG] ProviderTransformer: "yandex_vpc_subnet.subnet-1 (expand)" (*terraform.nodeExpandApplyableResource) needs provider["registry.terraform.io/yandex-cloud/yandex"]
+2021/04/12 16:07:51 [DEBUG] ProviderTransformer: "yandex_vpc_network.network-1 (expand)" (*terraform.nodeExpandApplyableResource) needs provider["registry.terraform.io/yandex-cloud/yandex"]
+2021/04/12 16:07:51 [DEBUG] ProviderTransformer: "yandex_vpc_subnet.subnet-1" (*terraform.NodeApplyableResourceInstance) needs provider["registry.terraform.io/yandex-cloud/yandex"]
+2021/04/12 16:07:51 [DEBUG] ProviderTransformer: "local_file.ansible_cfg (expand)" (*terraform.nodeExpandApplyableResource) needs provider["registry.terraform.io/hashicorp/local"]
+2021/04/12 16:07:51 [DEBUG] ProviderTransformer: "yandex_compute_instance.k8s-vm2" (*terraform.NodeApplyableResourceInstance) needs provider["registry.terraform.io/yandex-cloud/yandex"]
+2021/04/12 16:07:51 [DEBUG] ProviderTransformer: "yandex_compute_instance.k8s-vm1 (expand)" (*terraform.nodeExpandApplyableResource) needs provider["registry.terraform.io/yandex-cloud/yandex"]
+2021/04/12 16:07:51 [DEBUG] ProviderTransformer: "local_file.ansible_cfg" (*terraform.NodeApplyableResourceInstance) needs provider["registry.terraform.io/hashicorp/local"]
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "yandex_compute_instance.k8s-vm2" references: [yandex_vpc_subnet.subnet-1 (expand) yandex_vpc_subnet.subnet-1 yandex_vpc_subnet.subnet-1]
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/yandex-cloud/yandex\"]" references: []
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "yandex_vpc_subnet.subnet-1 (expand)" references: []
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "output.internal_ip_address_worker_node" references: [yandex_compute_instance.k8s-vm2 yandex_compute_instance.k8s-vm2 yandex_compute_instance.k8s-vm2 (expand)]
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "output.external_ip_address_master_node" references: [yandex_compute_instance.k8s-vm1 (expand) yandex_compute_instance.k8s-vm1 yandex_compute_instance.k8s-vm1]
+2021/04/12 16:07:51 [INFO] ReferenceTransformer: reference not found: "path.module"
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "local_file.ansible_cfg" references: [yandex_compute_instance.k8s-vm1 (expand) yandex_compute_instance.k8s-vm1 yandex_compute_instance.k8s-vm1 yandex_compute_instance.k8s-vm2 yandex_compute_instance.k8s-vm2 yandex_compute_instance.k8s-vm2 (expand)]
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "yandex_compute_instance.k8s-vm1 (expand)" references: []
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "yandex_vpc_network.network-1 (expand)" references: []
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "output.internal_ip_address_master_node" references: [yandex_compute_instance.k8s-vm1 (expand) yandex_compute_instance.k8s-vm1 yandex_compute_instance.k8s-vm1]
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "yandex_compute_instance.k8s-vm1" references: [yandex_vpc_subnet.subnet-1 (expand) yandex_vpc_subnet.subnet-1 yandex_vpc_subnet.subnet-1]
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/hashicorp/local\"]" references: []
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "yandex_compute_instance.k8s-vm2 (expand)" references: []
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "yandex_vpc_network.network-1" references: []
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "yandex_vpc_subnet.subnet-1" references: [yandex_vpc_network.network-1 (expand) yandex_vpc_network.network-1 yandex_vpc_network.network-1]
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "local_file.ansible_cfg (expand)" references: []
+2021/04/12 16:07:51 [DEBUG] ReferenceTransformer: "output.external_ip_address_worker_node" references: [yandex_compute_instance.k8s-vm2 yandex_compute_instance.k8s-vm2 yandex_compute_instance.k8s-vm2 (expand)]
+2021/04/12 16:07:51 [DEBUG] Starting graph walk: walkApply
+2021-04-12T16:07:51.187Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:07:51.236Z [DEBUG] plugin: starting plugin: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0 args=[.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0]
+2021-04-12T16:07:51.238Z [DEBUG] plugin: plugin started: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0 pid=6957
+2021-04-12T16:07:51.238Z [DEBUG] plugin: waiting for RPC address: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0
+2021-04-12T16:07:51.282Z [INFO]  plugin.terraform-provider-yandex_v0.55.0: configuring server automatic mTLS: timestamp=2021-04-12T16:07:51.277Z
+2021-04-12T16:07:51.355Z [DEBUG] plugin.terraform-provider-yandex_v0.55.0: plugin address: address=/tmp/plugin107627485 network=unix timestamp=2021-04-12T16:07:51.354Z
+2021-04-12T16:07:51.366Z [DEBUG] plugin: using plugin: version=5
+2021-04-12T16:07:51.491Z [INFO]  plugin: configuring client automatic mTLS
+2021-04-12T16:07:51.497Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unimplemented desc = unknown service plugin.GRPCStdio"
+2021-04-12T16:07:51.581Z [DEBUG] plugin: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5 args=[.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5]
+2021-04-12T16:07:51.582Z [DEBUG] plugin: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5 pid=6966
+2021-04-12T16:07:51.582Z [DEBUG] plugin: waiting for RPC address: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5
+2021-04-12T16:07:51.595Z [INFO]  plugin.terraform-provider-local_v2.1.0_x5: configuring server automatic mTLS: timestamp=2021-04-12T16:07:51.594Z
+2021-04-12T16:07:51.685Z [DEBUG] plugin: using plugin: version=5
+2021-04-12T16:07:51.685Z [DEBUG] plugin.terraform-provider-local_v2.1.0_x5: plugin address: address=/tmp/plugin421681072 network=unix timestamp=2021-04-12T16:07:51.685Z
+2021/04/12 16:07:51 [DEBUG] EvalApply: ProviderMeta config value set
+2021/04/12 16:07:51 [DEBUG] yandex_vpc_network.network-1: applying the planned Create change
+2021-04-12T16:07:51.813Z [DEBUG] plugin.terraform-provider-yandex_v0.55.0: [DEBUG] setting computed for "subnet_ids" from ComputedKeys
+2021/04/12 16:07:52 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an unexpected new value for yandex_vpc_network.network-1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .description: was null, but now cty.StringVal("")
+2021/04/12 16:07:52 [DEBUG] EvalApply: ProviderMeta config value set
+2021/04/12 16:07:52 [DEBUG] yandex_vpc_subnet.subnet-1: applying the planned Create change
+2021-04-12T16:07:52.787Z [DEBUG] plugin.terraform-provider-yandex_v0.55.0: [DEBUG] setting computed for "v6_cidr_blocks" from ComputedKeys
+2021/04/12 16:07:53 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an unexpected new value for yandex_vpc_subnet.subnet-1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .route_table_id: was null, but now cty.StringVal("")
+      - .description: was null, but now cty.StringVal("")
+2021/04/12 16:07:53 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an invalid plan for yandex_compute_instance.k8s-vm2, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .network_acceleration_type: planned value cty.StringVal("standard") does not match config value cty.NullVal(cty.String)
+      - .platform_id: planned value cty.StringVal("standard-v1") does not match config value cty.NullVal(cty.String)
+      - .boot_disk[0].auto_delete: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+      - .boot_disk[0].initialize_params[0].type: planned value cty.StringVal("network-hdd") does not match config value cty.NullVal(cty.String)
+      - .network_interface[0].ipv4: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+      - .placement_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .scheduling_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2021/04/12 16:07:53 [DEBUG] EvalApply: ProviderMeta config value set
+2021/04/12 16:07:53 [DEBUG] yandex_compute_instance.k8s-vm2: applying the planned Create change
+2021/04/12 16:07:53 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an invalid plan for yandex_compute_instance.k8s-vm1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .network_acceleration_type: planned value cty.StringVal("standard") does not match config value cty.NullVal(cty.String)
+      - .platform_id: planned value cty.StringVal("standard-v1") does not match config value cty.NullVal(cty.String)
+      - .placement_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .scheduling_policy: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .boot_disk[0].auto_delete: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+      - .boot_disk[0].initialize_params[0].type: planned value cty.StringVal("network-hdd") does not match config value cty.NullVal(cty.String)
+      - .network_interface[0].ipv4: planned value cty.True does not match config value cty.NullVal(cty.Bool)
+2021-04-12T16:07:53.347Z [DEBUG] plugin.terraform-provider-yandex_v0.55.0: [DEBUG] setting computed for "placement_policy" from ComputedKeys
+2021-04-12T16:07:53.348Z [DEBUG] plugin.terraform-provider-yandex_v0.55.0: [DEBUG] setting computed for "network_interface.0.security_group_ids" from ComputedKeys
+2021-04-12T16:07:53.348Z [DEBUG] plugin.terraform-provider-yandex_v0.55.0: [DEBUG] setting computed for "network_interface.0.security_group_ids" from ComputedKeys
+2021-04-12T16:07:53.348Z [DEBUG] plugin.terraform-provider-yandex_v0.55.0: [DEBUG] setting computed for "scheduling_policy" from ComputedKeys
+2021/04/12 16:07:53 [DEBUG] EvalApply: ProviderMeta config value set
+2021/04/12 16:07:53 [DEBUG] yandex_compute_instance.k8s-vm1: applying the planned Create change
+2021-04-12T16:07:53.351Z [DEBUG] plugin.terraform-provider-yandex_v0.55.0: [DEBUG] setting computed for "network_interface.0.security_group_ids" from ComputedKeys
+2021-04-12T16:07:53.351Z [DEBUG] plugin.terraform-provider-yandex_v0.55.0: [DEBUG] setting computed for "network_interface.0.security_group_ids" from ComputedKeys
+2021-04-12T16:07:53.351Z [DEBUG] plugin.terraform-provider-yandex_v0.55.0: [DEBUG] setting computed for "scheduling_policy" from ComputedKeys
+2021-04-12T16:07:53.351Z [DEBUG] plugin.terraform-provider-yandex_v0.55.0: [DEBUG] setting computed for "placement_policy" from ComputedKeys
+2021/04/12 16:08:23 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an unexpected new value for yandex_compute_instance.k8s-vm1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .description: was null, but now cty.StringVal("")
+      - .resources[0].gpus: was null, but now cty.NumberIntVal(0)
+2021/04/12 16:08:26 [WARN] Provider "registry.terraform.io/yandex-cloud/yandex" produced an unexpected new value for yandex_compute_instance.k8s-vm2, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .description: was null, but now cty.StringVal("")
+      - .resources[0].gpus: was null, but now cty.NumberIntVal(0)
+2021/04/12 16:08:26 [WARN] Provider "registry.terraform.io/hashicorp/local" produced an invalid plan for local_file.ansible_cfg, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .directory_permission: planned value cty.StringVal("0777") does not match config value cty.NullVal(cty.String)
+      - .file_permission: planned value cty.StringVal("0777") does not match config value cty.NullVal(cty.String)
+2021/04/12 16:08:26 [DEBUG] EvalApply: ProviderMeta config value set
+2021/04/12 16:08:26 [DEBUG] local_file.ansible_cfg: applying the planned Create change
+2021-04-12T16:08:26.050Z [DEBUG] plugin: plugin process exited: path=.terraform/providers/registry.terraform.io/yandex-cloud/yandex/0.55.0/linux_amd64/terraform-provider-yandex_v0.55.0 pid=6957
+2021-04-12T16:08:26.050Z [DEBUG] plugin: plugin exited
+2021-04-12T16:08:26.053Z [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = transport is closing"
+2021-04-12T16:08:26.054Z [DEBUG] plugin: plugin process exited: path=.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5 pid=6966
+2021-04-12T16:08:26.054Z [DEBUG] plugin: plugin exited
